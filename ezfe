@@ -1065,10 +1065,11 @@ elseif game.PlaceId == 3956818381 then
 	local Section = Tab:NewSection("Popblox©2022") 
 	local Tab 	  = Window:NewTab("Main")
 	local Section = Tab:NewSection("inf points")
-    Section:NewButton("Inf point bro", "ez", function()
-    while task.wait() do
+    Section:NewButton("Fly UI", "Fly", function()
+    wait(0.01)
 	game.Players.LocalPlayer.leaderstats.Points.Value = 999999999999
-end
+end)
+
     elseif game.PlaceId == 4588604953 then
 
 	print("Opening Gui")
