@@ -29,7 +29,7 @@ local AllRewards = a:Button('100% Achivements', function()
 end)
 
 -- Credit Tag
-a:Section("Created by HamstaGang");
+a:Section("Created by Teddy");
 
 -- Money #1
 spawn(function()
